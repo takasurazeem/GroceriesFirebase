@@ -14,7 +14,9 @@
 		76DE9D6C25547784005B3FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DE9D6A25547784005B3FAE /* LaunchScreen.storyboard */; };
 		76DE9D7725547784005B3FAE /* GroceriesFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DE9D7625547784005B3FAE /* GroceriesFirebaseTests.swift */; };
 		76DE9D8225547784005B3FAE /* GroceriesFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DE9D8125547784005B3FAE /* GroceriesFirebaseUITests.swift */; };
-		76DE9D9B255478AB005B3FAE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DE9D9A255478AB005B3FAE /* RootViewController.swift */; };
+		76DE9D9B255478AB005B3FAE /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DE9D9A255478AB005B3FAE /* LoginSignupViewController.swift */; };
+		76DE9DAF255483DE005B3FAE /* UIButton+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DE9DAE255483DE005B3FAE /* UIButton+CornerRadius.swift */; };
+		76DE9DB7255487FA005B3FAE /* UITextField+HideWithDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DE9DB6255487FA005B3FAE /* UITextField+HideWithDuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,9 @@
 		76DE9D7D25547784005B3FAE /* GroceriesFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceriesFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DE9D8125547784005B3FAE /* GroceriesFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesFirebaseUITests.swift; sourceTree = "<group>"; };
 		76DE9D8325547784005B3FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76DE9D9A255478AB005B3FAE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		76DE9D9A255478AB005B3FAE /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
+		76DE9DAE255483DE005B3FAE /* UIButton+CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+CornerRadius.swift"; sourceTree = "<group>"; };
+		76DE9DB6255487FA005B3FAE /* UITextField+HideWithDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+HideWithDuration.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		76DE9D5E25547781005B3FAE /* GroceriesFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				76DE9DA525547DB5005B3FAE /* Extensions */,
 				76DE9D9525547867005B3FAE /* Supporting Files */,
 				76DE9D6525547782005B3FAE /* Main.storyboard */,
 				76DE9D9925547884005B3FAE /* ViewControllers */,
@@ -139,9 +144,18 @@
 		76DE9D9925547884005B3FAE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				76DE9D9A255478AB005B3FAE /* RootViewController.swift */,
+				76DE9D9A255478AB005B3FAE /* LoginSignupViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		76DE9DA525547DB5005B3FAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				76DE9DAE255483DE005B3FAE /* UIButton+CornerRadius.swift */,
+				76DE9DB6255487FA005B3FAE /* UITextField+HideWithDuration.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DE9DB7255487FA005B3FAE /* UITextField+HideWithDuration.swift in Sources */,
+				76DE9DAF255483DE005B3FAE /* UIButton+CornerRadius.swift in Sources */,
 				76DE9D6025547781005B3FAE /* AppDelegate.swift in Sources */,
 				76DE9D6225547782005B3FAE /* SceneDelegate.swift in Sources */,
-				76DE9D9B255478AB005B3FAE /* RootViewController.swift in Sources */,
+				76DE9D9B255478AB005B3FAE /* LoginSignupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
